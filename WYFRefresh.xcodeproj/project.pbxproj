@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018964751F51DFBF007BAD50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018964741F51DFBF007BAD50 /* AppDelegate.swift */; };
+		018964771F51DFBF007BAD50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018964761F51DFBF007BAD50 /* ViewController.swift */; };
+		0189647A1F51DFBF007BAD50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018964781F51DFBF007BAD50 /* Main.storyboard */; };
+		0189647C1F51DFBF007BAD50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0189647B1F51DFBF007BAD50 /* Assets.xcassets */; };
+		0189647F1F51DFBF007BAD50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0189647D1F51DFBF007BAD50 /* LaunchScreen.storyboard */; };
+		0189648A1F51DFBF007BAD50 /* WYFRefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018964891F51DFBF007BAD50 /* WYFRefreshTests.swift */; };
+		018964951F51DFBF007BAD50 /* WYFRefreshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018964941F51DFBF007BAD50 /* WYFRefreshUITests.swift */; };
+		018964A31F52D2A1007BAD50 /* WYFRefreshContro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018964A21F52D2A1007BAD50 /* WYFRefreshContro.swift */; };
+		018964A51F554739007BAD50 /* WYFRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 018964A41F554739007BAD50 /* WYFRefreshView.xib */; };
+		018964A71F554DF8007BAD50 /* WYFRefreshview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018964A61F554DF8007BAD50 /* WYFRefreshview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		018964861F51DFBF007BAD50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 018964691F51DFBF007BAD50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018964701F51DFBF007BAD50;
+			remoteInfo = WYFRefresh;
+		};
+		018964911F51DFBF007BAD50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 018964691F51DFBF007BAD50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018964701F51DFBF007BAD50;
+			remoteInfo = WYFRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018964711F51DFBF007BAD50 /* WYFRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYFRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		018964741F51DFBF007BAD50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		018964761F51DFBF007BAD50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		018964791F51DFBF007BAD50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0189647B1F51DFBF007BAD50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0189647E1F51DFBF007BAD50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		018964801F51DFBF007BAD50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018964851F51DFBF007BAD50 /* WYFRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYFRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		018964891F51DFBF007BAD50 /* WYFRefreshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYFRefreshTests.swift; sourceTree = "<group>"; };
+		0189648B1F51DFBF007BAD50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018964901F51DFBF007BAD50 /* WYFRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYFRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		018964941F51DFBF007BAD50 /* WYFRefreshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYFRefreshUITests.swift; sourceTree = "<group>"; };
+		018964961F51DFBF007BAD50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018964A21F52D2A1007BAD50 /* WYFRefreshContro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYFRefreshContro.swift; sourceTree = SOURCE_ROOT; };
+		018964A41F554739007BAD50 /* WYFRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYFRefreshView.xib; sourceTree = "<group>"; };
+		018964A61F554DF8007BAD50 /* WYFRefreshview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYFRefreshview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0189646E1F51DFBF007BAD50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018964821F51DFBF007BAD50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0189648D1F51DFBF007BAD50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018964681F51DFBF007BAD50 = {
+			isa = PBXGroup;
+			children = (
+				018964731F51DFBF007BAD50 /* WYFRefresh */,
+				018964881F51DFBF007BAD50 /* WYFRefreshTests */,
+				018964931F51DFBF007BAD50 /* WYFRefreshUITests */,
+				018964721F51DFBF007BAD50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		018964721F51DFBF007BAD50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				018964711F51DFBF007BAD50 /* WYFRefresh.app */,
+				018964851F51DFBF007BAD50 /* WYFRefreshTests.xctest */,
+				018964901F51DFBF007BAD50 /* WYFRefreshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		018964731F51DFBF007BAD50 /* WYFRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				018964741F51DFBF007BAD50 /* AppDelegate.swift */,
+				018964761F51DFBF007BAD50 /* ViewController.swift */,
+				018964781F51DFBF007BAD50 /* Main.storyboard */,
+				018964A21F52D2A1007BAD50 /* WYFRefreshContro.swift */,
+				0189647B1F51DFBF007BAD50 /* Assets.xcassets */,
+				0189647D1F51DFBF007BAD50 /* LaunchScreen.storyboard */,
+				018964801F51DFBF007BAD50 /* Info.plist */,
+				018964A41F554739007BAD50 /* WYFRefreshView.xib */,
+				018964A61F554DF8007BAD50 /* WYFRefreshview.swift */,
+			);
+			path = WYFRefresh;
+			sourceTree = "<group>";
+		};
+		018964881F51DFBF007BAD50 /* WYFRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				018964891F51DFBF007BAD50 /* WYFRefreshTests.swift */,
+				0189648B1F51DFBF007BAD50 /* Info.plist */,
+			);
+			path = WYFRefreshTests;
+			sourceTree = "<group>";
+		};
+		018964931F51DFBF007BAD50 /* WYFRefreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				018964941F51DFBF007BAD50 /* WYFRefreshUITests.swift */,
+				018964961F51DFBF007BAD50 /* Info.plist */,
+			);
+			path = WYFRefreshUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		018964701F51DFBF007BAD50 /* WYFRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018964991F51DFBF007BAD50 /* Build configuration list for PBXNativeTarget "WYFRefresh" */;
+			buildPhases = (
+				0189646D1F51DFBF007BAD50 /* Sources */,
+				0189646E1F51DFBF007BAD50 /* Frameworks */,
+				0189646F1F51DFBF007BAD50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYFRefresh;
+			productName = WYFRefresh;
+			productReference = 018964711F51DFBF007BAD50 /* WYFRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		018964841F51DFBF007BAD50 /* WYFRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0189649C1F51DFBF007BAD50 /* Build configuration list for PBXNativeTarget "WYFRefreshTests" */;
+			buildPhases = (
+				018964811F51DFBF007BAD50 /* Sources */,
+				018964821F51DFBF007BAD50 /* Frameworks */,
+				018964831F51DFBF007BAD50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				018964871F51DFBF007BAD50 /* PBXTargetDependency */,
+			);
+			name = WYFRefreshTests;
+			productName = WYFRefreshTests;
+			productReference = 018964851F51DFBF007BAD50 /* WYFRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0189648F1F51DFBF007BAD50 /* WYFRefreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0189649F1F51DFBF007BAD50 /* Build configuration list for PBXNativeTarget "WYFRefreshUITests" */;
+			buildPhases = (
+				0189648C1F51DFBF007BAD50 /* Sources */,
+				0189648D1F51DFBF007BAD50 /* Frameworks */,
+				0189648E1F51DFBF007BAD50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				018964921F51DFBF007BAD50 /* PBXTargetDependency */,
+			);
+			name = WYFRefreshUITests;
+			productName = WYFRefreshUITests;
+			productReference = 018964901F51DFBF007BAD50 /* WYFRefreshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		018964691F51DFBF007BAD50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = FanFanKJ;
+				TargetAttributes = {
+					018964701F51DFBF007BAD50 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9N7VE3L4JD;
+						ProvisioningStyle = Automatic;
+					};
+					018964841F51DFBF007BAD50 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9N7VE3L4JD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 018964701F51DFBF007BAD50;
+					};
+					0189648F1F51DFBF007BAD50 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9N7VE3L4JD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 018964701F51DFBF007BAD50;
+					};
+				};
+			};
+			buildConfigurationList = 0189646C1F51DFBF007BAD50 /* Build configuration list for PBXProject "WYFRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 018964681F51DFBF007BAD50;
+			productRefGroup = 018964721F51DFBF007BAD50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				018964701F51DFBF007BAD50 /* WYFRefresh */,
+				018964841F51DFBF007BAD50 /* WYFRefreshTests */,
+				0189648F1F51DFBF007BAD50 /* WYFRefreshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189646F1F51DFBF007BAD50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0189647F1F51DFBF007BAD50 /* LaunchScreen.storyboard in Resources */,
+				0189647C1F51DFBF007BAD50 /* Assets.xcassets in Resources */,
+				0189647A1F51DFBF007BAD50 /* Main.storyboard in Resources */,
+				018964A51F554739007BAD50 /* WYFRefreshView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018964831F51DFBF007BAD50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0189648E1F51DFBF007BAD50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0189646D1F51DFBF007BAD50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018964771F51DFBF007BAD50 /* ViewController.swift in Sources */,
+				018964751F51DFBF007BAD50 /* AppDelegate.swift in Sources */,
+				018964A31F52D2A1007BAD50 /* WYFRefreshContro.swift in Sources */,
+				018964A71F554DF8007BAD50 /* WYFRefreshview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018964811F51DFBF007BAD50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0189648A1F51DFBF007BAD50 /* WYFRefreshTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0189648C1F51DFBF007BAD50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018964951F51DFBF007BAD50 /* WYFRefreshUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		018964871F51DFBF007BAD50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 018964701F51DFBF007BAD50 /* WYFRefresh */;
+			targetProxy = 018964861F51DFBF007BAD50 /* PBXContainerItemProxy */;
+		};
+		018964921F51DFBF007BAD50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 018964701F51DFBF007BAD50 /* WYFRefresh */;
+			targetProxy = 018964911F51DFBF007BAD50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		018964781F51DFBF007BAD50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				018964791F51DFBF007BAD50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0189647D1F51DFBF007BAD50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0189647E1F51DFBF007BAD50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		018964971F51DFBF007BAD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		018964981F51DFBF007BAD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0189649A1F51DFBF007BAD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9N7VE3L4JD;
+				INFOPLIST_FILE = WYFRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FanFanKJ.WYFRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0189649B1F51DFBF007BAD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9N7VE3L4JD;
+				INFOPLIST_FILE = WYFRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FanFanKJ.WYFRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0189649D1F51DFBF007BAD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9N7VE3L4JD;
+				INFOPLIST_FILE = WYFRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FanFanKJ.WYFRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYFRefresh.app/WYFRefresh";
+			};
+			name = Debug;
+		};
+		0189649E1F51DFBF007BAD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9N7VE3L4JD;
+				INFOPLIST_FILE = WYFRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FanFanKJ.WYFRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYFRefresh.app/WYFRefresh";
+			};
+			name = Release;
+		};
+		018964A01F51DFBF007BAD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9N7VE3L4JD;
+				INFOPLIST_FILE = WYFRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FanFanKJ.WYFRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WYFRefresh;
+			};
+			name = Debug;
+		};
+		018964A11F51DFBF007BAD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9N7VE3L4JD;
+				INFOPLIST_FILE = WYFRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FanFanKJ.WYFRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WYFRefresh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0189646C1F51DFBF007BAD50 /* Build configuration list for PBXProject "WYFRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018964971F51DFBF007BAD50 /* Debug */,
+				018964981F51DFBF007BAD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018964991F51DFBF007BAD50 /* Build configuration list for PBXNativeTarget "WYFRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0189649A1F51DFBF007BAD50 /* Debug */,
+				0189649B1F51DFBF007BAD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0189649C1F51DFBF007BAD50 /* Build configuration list for PBXNativeTarget "WYFRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0189649D1F51DFBF007BAD50 /* Debug */,
+				0189649E1F51DFBF007BAD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0189649F1F51DFBF007BAD50 /* Build configuration list for PBXNativeTarget "WYFRefreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018964A01F51DFBF007BAD50 /* Debug */,
+				018964A11F51DFBF007BAD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 018964691F51DFBF007BAD50 /* Project object */;
+}
